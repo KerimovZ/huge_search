@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*:after{
+    box-sizing: border-box
+}
+
+.ser{
+    display: inline-block;
+    color: #c2c2c2;
+    font-size: 80px;
+    width: 75%;
+    margin: 50px 15px 15px 100px;
+    border: none;
+    outline: none;
+    background: #f1f1f1;
+    color:#ec5a62;
+}
+.bottom{
+    background: url(../img/magnifier.svg);
+    height: 90px;
+    width: 90px;
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+
+
+.blok{
+    width: 100%;
+    padding: 0 6%;
+}
+
+
+
+.kolon {
+   display: inline-block;
+    width: 30%;
+}
+ul{
+    list-style-type: none;
+    
+}
+ul:nth-child(2){
+    margin: 0 4%;
+}
+
+.krug{
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    background-color: rgba(118,117,128,0.05);
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+h3{
+    display: inline-block;
+    font-size: 17px;
+    color: #c2c2c2;
+}
+
+h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+        color: #c2c2c2;
+}
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+a:hover h3{
+    color: red;
+}
